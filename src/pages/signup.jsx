@@ -1,6 +1,6 @@
 import "../styles/signup.css";
 import logo from "../assets/logo.png";
-
+import { Link } from "react-router-dom";
 import {
   FaUser,
   FaEnvelope,
@@ -162,7 +162,7 @@ function Signup() {
 
         <p className="signin">
           Already forging your path?
-          <a href="/login"> Sign In</a>
+          <Link to="/login"> Sign In</Link>
         </p>
 
         <div className="divider">

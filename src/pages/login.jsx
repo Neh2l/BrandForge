@@ -1,4 +1,5 @@
 import "../styles/login.css";
+import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { FaEnvelope, FaLock, FaGoogle, FaApple } from "react-icons/fa";
 import Img from "../assets/logo.png"
@@ -63,9 +64,9 @@ function Login() {
         </div>
       </div>
 
-      <p className="signup">
-        Don't have an account? <a href="/signup">Sign up</a>
-      </p>
+     <p className="signup">
+  Don't have an account? <Link to="/signup">Sign up</Link>
+</p>
     </div>
   );
 }
