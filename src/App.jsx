@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Start from "./pages/Start";
-import Login from "./pages/Login";
-import Splash from "./pages/Splash";
+import Start from "./pages/start";
+import Login from "./pages/login";
+import Splash from "./pages/splash";
 
 function App() {
   return (
