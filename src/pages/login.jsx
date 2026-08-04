@@ -7,11 +7,11 @@ function Login() {
   const navigate = useNavigate();
   return (
     <div className="login-page">
-      <div className="logo-box">
+      <div className="logo-box" onClick={()=>navigate("/")}>
         <img src={Img} alt="logo" className="logo" />
       </div>
 
-      <h1>BrandForge</h1>
+      <h1 link to="/">BrandForge</h1>
       <p className="subtitle">
         Sign in to continue to your workspace.
       </p>
