@@ -1,5 +1,5 @@
 import "../styles/start.css";
-import logo from "../../public/logo.png";
+import logo from "../assets/logo.png";
 
 function Start() {
   return (
@@ -8,8 +8,8 @@ function Start() {
         <img src={logo} alt="BrandForge Logo" />
 
         <h1 className="logo-text">
-          <span className="brand">Brand</span>
-          <span className="forge">Forge</span>
+          <span className="brand-start">Brand</span>
+          <span className="forge-start">Forge</span>
         </h1>
       </div>
     </div>

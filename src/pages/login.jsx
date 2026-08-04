@@ -1,11 +1,13 @@
 import "../styles/login.css";
+import { useNavigate } from "react-router-dom";
 import { FaEnvelope, FaLock, FaGoogle, FaApple } from "react-icons/fa";
-import Img from "../../public/logo.png"
+import Img from "../assets/logo.png"
 function Login() {
+  const navigate = useNavigate();
   return (
     <div className="login-page">
       <div className="logo-box">
-        <img src="/logo.png" alt="logo" className="logo" />
+        <img src={Img} alt="logo" className="logo" />
       </div>
 
       <h1>BrandForge</h1>
@@ -62,7 +64,7 @@ function Login() {
       </div>
 
       <p className="signup">
-        Don't have an account? <a href="/">Sign up</a>
+        Don't have an account? <a href="/signup">Sign up</a>
       </p>
     </div>
   );

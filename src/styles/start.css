@@ -36,13 +36,14 @@
     font-size:clamp(28px,4vw,48px);
     font-weight:700;
     font-family:Arial, Helvetica, sans-serif;
+      white-space: nowrap !important;
 }
 
-.brand{
+.brand-start{
     color:#081B3D;
 }
 
-.forge{
+.forge-start{
     color:#4D8CFF;
 }
 
