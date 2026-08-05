@@ -24,7 +24,7 @@ export default function CheckEmail() {
           Please check your inbox and follow the instructions.
         </p>
 
-        <button onClick={() => navigate("//set-new-password")}>Open Email Client</button>
+        <button onClick={() => navigate("/set-new-password")}>Open Email Client</button>
 
         <p className="resend">
           Didn't receive the email?{" "}
