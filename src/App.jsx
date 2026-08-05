@@ -4,8 +4,8 @@ import Login from "./pages/login";
 import Splash from "./pages/splash";
 import Signup from "./pages/signup"
 import ForgotPassword from "./pages/forgotPassword";
-import CheckEmail from "./pages/CheckEmail";
-import SetNewPassword from "./pages/SetNewPassword";
+import CheckEmail from "./pages/checkEmail";
+import SetNewPassword from "./pages/setNewPassword";
 
 function App() {
   return (
