@@ -1,4 +1,4 @@
-import "../styles/checkEmail.css";
+import "../styles/CheckEmail.css";
 import { FiCheckCircle } from "react-icons/fi";
 import { useNavigate } from "react-router-dom";
 

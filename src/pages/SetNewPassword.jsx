@@ -1,4 +1,4 @@
-import "../styles/setNewPassword.css";
+import "../styles/SetNewPassword.css";
 import {
   FiLock,
   FiEye,
