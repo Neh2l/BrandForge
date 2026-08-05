@@ -29,7 +29,10 @@ function Login() {
 
         <div className="password-header">
           <label>Password</label>
-          <a href="/">Forgot password?</a>
+          {/* <a href="/">Forgot password?</a> */}
+          <Link to="/forgotPassword" className="forgot-link">
+            Forgot password?
+          </Link>
         </div>
 
         <div className="input-box">
