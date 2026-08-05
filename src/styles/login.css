@@ -18,7 +18,7 @@ body {
   padding: 20px;
 }
 
-.logo-box {
+.logo-box-login {
   width: 60px;
   height: 60px;
   background: white;
@@ -30,7 +30,7 @@ body {
   margin-bottom: 18px;
 }
 
-.logo {
+.logo-login {
   width: 35px;
 }
 
@@ -142,12 +142,12 @@ h1 {
   right: 0;
 }
 
-.social-buttons {
+.social-buttons-login {
   display: flex;
   gap: 15px;
 }
 
-.social-buttons button {
+.social-buttons-login button {
   flex: 1;
   border: 1px solid #ddd;
   background: white;
@@ -189,7 +189,7 @@ h1 {
     font-size: 15px;
   }
 
-  .social-buttons {
+  .social-buttons-login {
     flex-direction: column;
   }
 }

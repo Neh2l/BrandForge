@@ -15,7 +15,7 @@ export default function SetNewPassword() {
       <div className="passwordCard">
 
         <div className="brandIcon">
-          <img src="../assets/logo.png" alt="logo" />
+          <img src="/logo.png" alt="logo" />
         </div>
 
         <h3 className="brandTitle">BrandForge</h3>

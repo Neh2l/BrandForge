@@ -7,8 +7,8 @@ function Login() {
   const navigate = useNavigate();
   return (
     <div className="login-page">
-      <div className="logo-box" onClick={()=>navigate("/")}>
-        <img src={Img} alt="logo" className="logo" />
+      <div className="logo-box-login" onClick={()=>navigate("/")}>
+        <img src={Img} alt="logo" className="logo-login" />
       </div>
 
       <h1 link to="/">BrandForge</h1>
@@ -54,7 +54,7 @@ function Login() {
           <span>or continue with</span>
         </div>
 
-        <div className="social-buttons">
+        <div className="social-buttons-login">
           <button>
             <FaGoogle />
             Google
